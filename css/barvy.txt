@@ -1,0 +1,10 @@
+pozadí - #000000
+písmo, h2, h3 - #EFF5FB
+odkaz, h1 - #A9D0F5
+
+odkaz po najetí kurzorem - #6190C6
+
+
+
+
+

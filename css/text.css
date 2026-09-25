@@ -1,0 +1,53 @@
+/******************/
+/*  MAIN SECTION  */
+/******************/
+
+/* MAIN CONTENT */
+.main-content h1 {clear:both; margin:0.5em 0 0.7em 0; font-family:sans-serif; color:#A9D0F5; font-weight:normal; font-size:210%;}
+.main-content h2 {clear:both; margin:1.5em 0 0.5em 0; font-family:verdana,sans-serif;; color:#EFF5FB; font-weight:normal; font-size:170%;}
+.main-content h3 {clear:both; margin:0.5em 0 0.5em 0; font-family:verdana,sans-serif; color:#EFF5FB; font-weight:normal; font-size:130%;}
+.main-content h1.side {clear:none;}
+.main-content h2.side {clear:none;}
+.main-content h3.side {clear:none;}
+
+.main-content h5 {margin:1.5em 0 0.5em 0; color:#EFF5FB; font-family:verdana, sans-serif; font-size:130%;}
+.main-content h4 {margin:1.5em 0 0.5em 0; color:#EFF5FB; font-family:verdana, sans-serif; font-size:130%; text-decoration:line-through}
+.main-content h6 {margin:1.0em 0 0.5em 0;color:#EFF5FB; font-family:verdana, sans-serif; font-size:120%;}
+.main-content p {margin:0 0 0.4em 0; line-height:1.5em; font-size:120%;}
+.main-content p.center {text-align:center;}
+.main-content p.right {text-align:right;}
+.main-content p.details {clear:both; margin:-0.25em 0 1.0em 0; line-height:1.0em; font-size:110%;}
+.main-content blockquote {clear:both; margin:0 30px 0.6em 30px; font-size:90%;}
+
+.main-content table {clear:both; width:800px; margin:2.0em 0 0.2em 20px; table-layout: fixed; border-collapse:collapse; empty-cells:show; background-color:#000000;}
+.main-content table th.top {height:3.5em; padding:0 7px 0 7px; empty-cells:show; background-color:#000000; text-align:left; color:#EFF5FB; font-weight:bold; font-size:110%;}
+.main-content table th {height:3.0em; padding:2px 20px 2px 7px; border-left:solid 2px #EFF5FB; border-right:solid 2px rgb(255,255,255); border-top:solid 2px #EFF5FB; border-bottom:solid 2px #EFF5FB; background-color:#000000; text-align:left; color:#EFF5FB; font-weight:bold; font-size:110%;}
+.main-content table td {height:3.0em; padding:2px 7px 2px 7px; border-left:solid 2px #EFF5FB; border-right:solid 2px rgb(255,255,255); border-top:solid 2px #EFF5FB; border-bottom:solid 2px #EFF5FB; background-color:#000000; text-align:left; font-weight:normal; color:#EFF5FB; font-size:110%;}
+p.caption {clear:both; margin:0.5em 0 2.0em 20px; text-align:left; color:#EFF5FB; font-size:110%;}
+
+.main-content ul {list-style:none; margin:0.5em 0 1.0em 0;}
+.main-content ul li {margin:0 0 0.2em 2px; padding:0 0 0 12px; background:#000000; line-height:1.4em; font-size:120%;}
+.main-content ol {margin:0.5em 0 1.0em 20px !important /*Non-IE6*/; margin:0.5em 0 1.0em 25px /*IE6*/;}
+.main-content ol li {list-style-position:outside; margin:0 0 0.2em 0; line-height:1.4em; font-size:120%;}
+
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+.main img {clear:both; float:none; margin:3px 10px 7px 0; padding:1px; border:1px solid #EFF5FB;}
+.main img.left {clear:both; float:left; margin:0; padding:1px; border:0px}
+.main img.center {clear:both; float:none; margin:0; padding:1px; border:0px solid #EFF5FB;}
+.main img.right {clear:both; float:left; margin:3px 20px 17px 0px; padding:1px; border:1px solid #EFF5FB;}
+.main img.download {clear:both; float:none; margin:0px 0px 0px 0px; padding:1px; border:0px solid #EFF5FB;}
+.footer img {clear:both; float:none; padding:1px; border:0px solid #EFF5FB}
+.footer img.center {clear:both; float:none; margin:0; padding:1px; border:0px solid #EFF5FB;}
+
+.main a {color:#A9D0F5; font-weight:normal; text-decoration:none;}
+.main-content h1 a {color:#A9D0F5; font-weight:normal; text-decoration:none;}
+.main a:hover {color:#6190C6; text-decoration:none;}
+.main a:visited {color:#6190C6;}
+
+.main a img {border:solid 1px #EFF5FB;}
+.main a:hover img {border:solid 1px #EFF5FB;}
+.main a:hover img.download {border:solid 0px #EFF5FB;}
+
+.main embed {border:1px solid #EFF5FB;}

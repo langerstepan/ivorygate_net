@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<playlist version='1' xmlns='http://xspf.org/ns/0/'>
+<title>Ivory Gate - playlist</title>
+<info>http://www.ivorygate.net/</info>
+<trackList>
+<track>
+<title>Mountains, 2015</title>
+<location>files/Ivory_Gate-Mountains.mp3</location>
+</track>
+<track>
+<title>Shadows on the Wall, 2015</title>
+<location>files/Ivory_Gate-Shadows_on_the_Wall.mp3</location>
+</track>
+</trackList>
+</playlist>

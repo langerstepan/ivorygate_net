@@ -1,0 +1,91 @@
+/* NON-HEADER */
+*{padding:0; margin:0;}
+ body {font-size:62.5%; background-color:#000000; font-family:verdana,sans-serif;} /*Font-size: 1.0em = 10px when browser default size is 16px*/
+.page-container {width:875px; margin:0px auto; margin-top:20px; margin-bottom:20px;font-size:1.0em;}
+.main {clear:both; width:875px; padding-bottom:20px;background-color:#000000;}
+.main-content {display:inline; /*Fix IE floating margin bug*/; float:left; width:840px; height: 600px; margin:10px 0 0 30px;overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.footer {clear:both; width:840px; height:3.7em; background:#000000; font-size:0.8em; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;margin-top: 50px;}
+
+/* --- For alternative headers START PASTE here --- */
+
+/* HEADER */
+.header {width:875px; font-family:"trebuchet ms",sans-serif}
+.header-top {width:875px; height:50px; background:#000000 url('../img/menu.jpg') no-repeat; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/ !important}
+.header-middle {width:875px; height:150px; background:#000000 url('../img/header.gif'); overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/ !important}
+.header-bottom {width:875px; height:50px; background:#000000;margin-left: 10px;margin-top: 0px;}
+
+/*******************/
+/*  HEADER SECTION */
+/*******************/
+
+.nav1 {width:380px; position:absolute; z-index:3; margin:25px 0 0 503px;font-weight:normal;color:#EFF5FB;font-size:90%;}
+.nav1 ul {float:right; padding:0 15px 0 0; font-weight:bold;}	
+.nav1 li {display:inline; list-style:none;}
+.nav1 li a {display:block; float:left; padding:2px 5px 2px 5px; color:#A9D0F5; text-decoration:none; font-size:160%;}
+.nav1 a:hover {text-decoration:none; color:#6190C6;}
+
+.nav2 {float:left; width:875px; border:none; background:#000000; font-size:1.0em; font-size:220%;} /*Color navigation bar normal mode*/
+.nav2 ul {list-style-type:none;}
+.nav2 ul li {float:left; position:relative; }
+.nav2 ul li ul {display:none; border:none;}
+.nav2 ul li a {float:left; display:block; height:3.1em; line-height:2.1em; padding:0 35px 0 17px; text-decoration:none; font-weight:normal; color: #A9D0F5;}
+.nav2 ul li:hover {width:auto;}
+.nav2 table {position:absolute; z-index:999; top:0; left:0; border-collapse:collapse;}
+
+/*Non-IE6*/
+.nav2 ul li:hover a {background-color:#000000; text-decoration:none;color:#6190C6;} /*Color main cells hovering mode*/
+.nav2 ul li:hover ul {display:block; position:absolute; z-index:998; top:3.0em; margin-top:0.1em; left:0;}
+.nav2 ul li:hover ul li ul {display: none;}
+.nav2 ul li:hover ul li a {display:block; width:10em; height:auto; line-height:1.3em; margin-left:-1px; padding:4px 16px 4px 16px; background-color:#000000; font-weight:normal; color:#A9D0F5;} /*Color subcells normal mode*/
+.nav2 ul li:hover ul li a:hover {background-color:#000000); color:#6190C6; text-decoration:none;} /*Color subcells hovering mode*/
+
+/*IE6*/
+.nav2 ul li a:hover {background-color:#000000; text-decoration:none;color:#6190C6;} /*Color main cells hovering mode*/
+.nav2 ul li a:hover ul {display:block; position:absolute;z-index: 998; top:3.1em; t\op:3.0em; left:0; marg\in-top:0.1em;}
+.nav2 ul li a:hover ul li a {display:block; w\idth:10em; height:1px; line-height:1.3em; padding:4px 16px 4px 16px; background-color:#000000; font-weight:normal; color:#A9D0F5;} /*Color subcells normal mode*/
+.nav2 ul li a:hover ul li a ul {visibility:hidden; height:0px; width:0px; position:absolute; z-index: 997;}
+.nav2 ul li a:hover ul li a:hover {background-color:#000000; text-decoration:none; color:#6190C6;} /*Color subcells hovering mode*/
+
+
+/* --- For alternative headers END PASTE here --- */
+
+/******************/
+/*  MAIN SECTION  */
+/******************/
+
+/* MAIN CONTENT */
+.column1-unit {width:820px; margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/;color: #EFF5FB; text-align: justify;}
+.column2-unit-left {float:left; width:400px;  margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/;color:#EFF5FB;}
+.column2-unit-right {float:right; width:400px;  margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/;color:#EFF5FB;}
+.column3-unit-left {float:left; width:253px; margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/;}
+.column3-unit-middle {float:left; width:253px;  margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/; margin-left:40px;}
+.column3-unit-right {float:right; width:253px;  margin-bottom:10px !important /*Non-IE6*/; margin-bottom:5px /*IE6*/;}
+.lyrics-left {float: left; width: 310px;}
+.lyrics-right {float: right; width: 310px;}
+.lyrics-info {font-size: 90%;}
+
+/********************/
+/*  FOOTER SECTION  */
+/********************/
+.footer p {line-height:1.3em; text-align:center; color:#EFF5FB; background: #000000; font-weight:normal;font-size:90%; }
+.footer a {text-decoration:underline; color:#A9D0F5;}
+.footer a:hover {text-decoration:none; color:#6190C6;}
+.footer a:visited {color:#6190C6;}
+
+/******************/
+/*  CLEAR FLOATS  */
+/******************/
+.page-container:after, .header:after, .header-breadcrumbs:after, .main:after, .main-content:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.column1-unit:after, .column2-unit-left:after, .column2-unit-right:after, .column3-unit-left:after, .column3-unit-middle:after, .column3-unit-right:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.footer:after, p:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clear-contentunit {clear:both; width:820px; height:0.1em; border:none; background:#000000; color:#EFF5FB;}
+
+/********************************/
+/*  PRINTING and MISCELLANEOUS  */
+/********************************/
+@media print {.header-top {width:875px; height:80px; background:#000000; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}}
+@media print {.header-breadcrumbs {width:875px; background:transparent;}}
+@media print {.nav2 {float:left; width:875px; border:none; background:#000000; color:#EFF5FB; font-size:1.0em; font-size:130%;}} /*Color navigation bar normal mode*/
+@media print {.main {clear:both; width:875px; padding-bottom:30px; background:transparent;}}
+@media print {.footer {clear:both; width:875px; height:3.7em; padding:1.1em 0 0; background:#000000; font-size:1.0em; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}}
+html {filter: expression(document.execCommand("BackgroundImageCache", false, true));} /*IE proprietary flicker hack for background images. Not validating, but OK*/
